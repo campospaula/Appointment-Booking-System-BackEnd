@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pacientes</title>
+  <link rel="icon" type="image/x-icon" href="./assets/logo.ico">
+  <meta name="description" content="Proyecto integrador | BACKEND | VÍCTOR GUTIÉRREZ | PAULA CAMPOS" />
+  <!-- ---------------- estilos AOS ---------------- -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- ---------------- estilos SweetAlert ---------------- -->
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css" rel="stylesheet">
+
+  <!-- ----------------------------- estilos CSS ----------------------------- -->
+  <link rel="stylesheet" href="./css/tasksStyles.css">
+  <!-- ------------------- libreria de iconos Fontawesome -------------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- logica de la página -->
+  <script src="scripts/utils.js"></script>
+  <script src="./scripts/pacientes.js"></script>
+</head>
+<body>
+  <!-- cabecera con barra de navegación -->
+  <header class="container" data-aos="fade-down" data-aos-duration="500">
+    <nav>
+      <ul class="nav-ul">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="odontologos.html">ODONTOLOGOS</a></li>
+        <li><a href="turnos.html">TURNOS</a></li>
+      </ul>
+      <div class="user-info">
+        <p>username</p>
+        <div class="user-image"></div>
+        <button id="closeApp" data-aos="fade-left" data-aos-duration="1500"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</button>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <!-- cargar de pacientes -->
+    <form id="paciente" class="nueva-tarea" data-aos="zoom-out-down" data-aos-duration="1000">
+      <div>
+        <input id="paciente-nombre" type="text" placeholder="nombre" required>
+        <input id="paciente-apellido" type="text" placeholder="apellido" required>
+        <input id="paciente-dni" type="text" placeholder="dni" required>
+        <input id="paciente-calle" type="text" placeholder="calle" required>
+        <input id="paciente-numero" type="text" placeholder="numero" required>
+        <input id="paciente-localidad" type="text" placeholder="localidad" required>
+        <input id="paciente-provincia" type="text" placeholder="provincia" required>
+      </div>
+      <button type="submit"><i class="fa-solid fa-pencil"></i> Agregar paciente</button>
+    </form>
+    <form id="mod-paciente" class="nueva-tarea" data-aos="zoom-out-down" data-aos-duration="1000">
+      <div>
+        <input id="p-id" type="number" placeholder="id" min="1" required>
+        <input id="p-nombre" type="text" placeholder="nombre" required>
+        <input id="p-apellido" type="text" placeholder="apellido" required>
+        <input id="p-dni" type="text" placeholder="dni" required>
+        <input id="p-fecha" type="datetime-local" required>
+        <input id="p-calle" type="text" placeholder="calle" required>
+        <input id="p-numero" type="text" placeholder="numero" required>
+        <input id="p-localidad" type="text" placeholder="localidad" required>
+        <input id="p-provincia" type="text" placeholder="provincia" required>
+      </div>
+      <button type="submit"><i class="fa-solid fa-pencil"></i> Modificar paciente</button>
+    </form>
+    <!-- contenedor vacío para los pacientes -->
+    <h2>Pacientes</h2>
+    <div class="contenedor-pacientes">
+      <ul id="lista-pacientes" class="tareas-pendientes lista-pacientes"></ul>
+    </div>
+    <!-- buscar un paciente -->
+    <form id="un-paciente" class="un-paciente">
+      <input id="paciente-id" type="number" placeholder="id" min="1">
+      <button type="submit"><i class="fa-solid fa-pencil"></i>Buscar paciente</button>
+      <button type="button" id="eliminar-btn"><i class="fa-solid fa-pencil"></i>Eliminar paciente</button>
+    </form>
+    <h2>Paciente</h2>
+    <ul id="un-paciente-list" class="tareas-pendientes lista-paciente"></ul>
+  </main>
+  <footer class="footer-index">
+    <p>| VÍCTOR GUTIÉRREZ - PAULA CAMPOS |</p>
+  </footer>
+  <!-- SCRIPT AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <!-- SCRIPT SweetAlert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>

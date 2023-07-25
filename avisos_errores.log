@@ -1,0 +1,185 @@
+INFO	2023-07-02 11:57:34,668	0	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-3]	Listando Pacientes - GET ALL
+INFO	2023-07-02 11:57:42,252	7584	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-2]	Paciente guardado con éxito
+INFO	2023-07-02 11:57:42,252	7584	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-2]	Guardado Paciente - POST
+INFO	2023-07-02 11:57:42,280	7612	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-4]	Listando Pacientes - GET ALL
+INFO	2023-07-02 11:57:44,868	10200	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-5]	Buscando Paciente - GET + ID
+INFO	2023-07-02 11:57:44,873	10205	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-5]	Paciente encontrado
+INFO	2023-07-02 11:58:07,622	32954	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-6]	Listando Pacientes - GET ALL
+INFO	2023-07-02 11:58:07,629	32961	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-7]	Buscando Paciente - GET + ID
+INFO	2023-07-02 11:58:07,630	32962	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-7]	Paciente modificado con éxito
+INFO	2023-07-02 11:58:07,631	32963	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-7]	Actualizando Paciente - PUT
+INFO	2023-07-02 11:58:07,641	32973	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-8]	Listando Pacientes - GET ALL
+INFO	2023-07-02 11:58:11,497	36829	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-10]	Buscando Paciente - GET + ID
+INFO	2023-07-02 11:58:11,498	36830	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-10]	Paciente encontrado
+INFO	2023-07-02 11:58:20,181	45513	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-9]	Paciente guardado con éxito
+INFO	2023-07-02 11:58:20,181	45513	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-9]	Guardado Paciente - POST
+INFO	2023-07-02 11:58:20,187	45519	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-1]	Listando Pacientes - GET ALL
+INFO	2023-07-02 11:58:23,203	48535	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-3]	Buscando Paciente - GET + ID
+INFO	2023-07-02 11:58:23,205	48537	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-3]	Paciente encontrado
+INFO	2023-07-02 11:58:25,629	50961	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-2]	Buscando Paciente - GET + ID
+INFO	2023-07-02 11:58:25,630	50962	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-2]	Eliminando Paciente - DELETE
+INFO	2023-07-02 11:58:25,641	50973	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-2]	Paciente eliminado con éxito
+INFO	2023-07-02 11:58:25,645	50977	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-4]	Listando Pacientes - GET ALL
+INFO	2023-07-02 11:58:27,381	52713	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-5]	Buscando Paciente - GET + ID
+ERROR	2023-07-02 11:58:27,383	52715	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-5]	El paciente 2 no está registrado
+INFO	2023-07-02 11:58:29,619	54951	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-6]	Buscando Paciente - GET + ID
+INFO	2023-07-02 11:58:29,621	54953	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-6]	Paciente encontrado
+INFO	2023-07-02 11:58:41,267	66599	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-5]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 11:58:50,239	75571	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-6]	Odontólogo guardado con éxito
+INFO	2023-07-02 11:58:50,240	75572	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-6]	Guardado Odontólogo - POST
+INFO	2023-07-02 11:58:50,249	75581	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-7]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 11:59:13,688	99020	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-8]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 11:59:13,689	99021	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-8]	Odontólogo encontrado
+INFO	2023-07-02 11:59:22,699	108031	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-9]	Odontólogo guardado con éxito
+INFO	2023-07-02 11:59:22,699	108031	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-9]	Guardado Odontólogo - POST
+INFO	2023-07-02 11:59:22,705	108037	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-10]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 11:59:34,378	119710	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-1]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 11:59:34,384	119716	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-3]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 11:59:34,385	119717	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-3]	Odontólogo modificado con éxito
+INFO	2023-07-02 11:59:34,386	119718	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-3]	Actualizando Odontólogo - PUT
+INFO	2023-07-02 11:59:34,389	119721	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-4]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 11:59:39,959	125291	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-2]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 11:59:39,960	125292	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-2]	Odontólogo encontrado
+INFO	2023-07-02 11:59:42,352	127684	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-7]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 11:59:42,353	127685	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-7]	Odontólogo encontrado
+INFO	2023-07-02 11:59:49,090	134422	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-8]	Odontólogo guardado con éxito
+INFO	2023-07-02 11:59:49,090	134422	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-8]	Guardado Odontólogo - POST
+INFO	2023-07-02 11:59:49,095	134427	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-9]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 11:59:51,592	136924	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-10]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 11:59:51,593	136925	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-10]	Odontólogo encontrado
+INFO	2023-07-02 11:59:52,590	137922	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-1]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 11:59:52,595	137927	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-3]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 11:59:52,596	137928	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-3]	Eliminando Odontólogo - DELETE
+INFO	2023-07-02 11:59:52,597	137929	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-3]	Odontólogo eliminado con éxito
+INFO	2023-07-02 11:59:52,602	137934	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-4]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 11:59:55,292	140624	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-2]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 11:59:55,293	140625	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-2]	Odontólogo encontrado
+INFO	2023-07-02 11:59:56,748	142080	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-5]	Buscando Odontólogo - GET + ID
+ERROR	2023-07-02 11:59:56,749	142081	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-5]	El odontólogo 3 no está registrado
+INFO	2023-07-02 11:59:58,344	143676	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-6]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 11:59:58,345	143677	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-6]	Odontólogo encontrado
+INFO	2023-07-02 12:00:05,592	150924	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-2]	Listando Pacientes - GET ALL
+INFO	2023-07-02 12:00:18,377	163709	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-5]	Paciente guardado con éxito
+INFO	2023-07-02 12:00:18,377	163709	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-5]	Guardado Paciente - POST
+INFO	2023-07-02 12:00:18,384	163716	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-6]	Listando Pacientes - GET ALL
+INFO	2023-07-02 12:00:22,409	167741	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-2]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 12:00:29,527	174859	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-3]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:29,529	174861	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-3]	Paciente encontrado
+INFO	2023-07-02 12:00:29,534	174866	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-4]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:00:29,535	174867	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-4]	Odontólogo encontrado
+INFO	2023-07-02 12:00:29,540	174872	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-2]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:29,541	174873	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-2]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:00:29,542	174874	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-2]	Turno agregado con éxito
+INFO	2023-07-02 12:00:29,542	174874	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-2]	Guardado Turno - POST
+INFO	2023-07-02 12:00:29,551	174883	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-5]	Listando Turnos - GET ALL
+INFO	2023-07-02 12:00:34,058	179390	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-6]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:34,060	179392	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-6]	Paciente encontrado
+INFO	2023-07-02 12:00:34,064	179396	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-7]	Buscando Odontólogo - GET + ID
+ERROR	2023-07-02 12:00:34,065	179397	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-7]	El odontólogo 3 no está registrado
+INFO	2023-07-02 12:00:38,061	183393	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-10]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:38,062	183394	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-10]	Paciente encontrado
+INFO	2023-07-02 12:00:38,067	183399	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-8]	Buscando Odontólogo - GET + ID
+ERROR	2023-07-02 12:00:38,068	183400	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-8]	El odontólogo 3 no está registrado
+INFO	2023-07-02 12:00:41,043	186375	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-1]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:41,044	186376	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-1]	Paciente encontrado
+INFO	2023-07-02 12:00:41,048	186380	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-9]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:00:41,049	186381	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-9]	Odontólogo encontrado
+INFO	2023-07-02 12:00:41,053	186385	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-3]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:41,054	186386	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-3]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:00:41,054	186386	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-3]	Turno agregado con éxito
+INFO	2023-07-02 12:00:41,055	186387	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-3]	Guardado Turno - POST
+INFO	2023-07-02 12:00:41,058	186390	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-4]	Listando Turnos - GET ALL
+INFO	2023-07-02 12:00:46,469	191801	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-2]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:46,470	191802	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-2]	Paciente encontrado
+INFO	2023-07-02 12:00:46,473	191805	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-5]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:00:46,474	191806	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-5]	Odontólogo encontrado
+INFO	2023-07-02 12:00:46,478	191810	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-6]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:46,479	191811	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-6]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:00:46,480	191812	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-6]	Turno agregado con éxito
+INFO	2023-07-02 12:00:46,480	191812	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-6]	Guardado Turno - POST
+INFO	2023-07-02 12:00:46,485	191817	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-7]	Listando Turnos - GET ALL
+INFO	2023-07-02 12:00:51,052	196384	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-10]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:51,053	196385	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-10]	Paciente encontrado
+INFO	2023-07-02 12:00:51,057	196389	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-8]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:00:51,058	196390	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-8]	Odontólogo encontrado
+INFO	2023-07-02 12:00:51,062	196394	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-1]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:00:51,063	196395	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-1]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:00:51,064	196396	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-1]	Turno agregado con éxito
+INFO	2023-07-02 12:00:51,064	196396	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-1]	Guardado Turno - POST
+INFO	2023-07-02 12:00:51,068	196400	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-9]	Listando Turnos - GET ALL
+INFO	2023-07-02 12:00:55,267	200599	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-3]	Buscando Turno - GET + ID
+INFO	2023-07-02 12:00:55,269	200601	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-3]	Turno encontrado
+INFO	2023-07-02 12:00:56,746	202078	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-4]	Buscando Turno - GET + ID
+INFO	2023-07-02 12:00:56,748	202080	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-4]	Turno encontrado
+INFO	2023-07-02 12:00:58,544	203876	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-2]	Buscando Turno - GET + ID
+INFO	2023-07-02 12:00:58,546	203878	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-2]	Turno encontrado
+INFO	2023-07-02 12:01:00,290	205622	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-5]	Buscando Turno - GET + ID
+INFO	2023-07-02 12:01:00,291	205623	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-5]	Turno encontrado
+INFO	2023-07-02 12:01:22,866	228198	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-6]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:01:22,867	228199	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-6]	Paciente encontrado
+INFO	2023-07-02 12:01:22,871	228203	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-7]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:01:22,872	228204	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-7]	Odontólogo encontrado
+INFO	2023-07-02 12:01:22,876	228208	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-10]	Listando Turnos - GET ALL
+INFO	2023-07-02 12:01:22,883	228215	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-8]	Actualizando Turno - PUT
+INFO	2023-07-02 12:01:22,894	228226	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-1]	Listando Turnos - GET ALL
+INFO	2023-07-02 12:01:48,525	253857	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-9]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:01:48,526	253858	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-9]	Paciente encontrado
+INFO	2023-07-02 12:01:48,530	253862	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-3]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 12:01:48,531	253863	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-3]	Odontólogo encontrado
+INFO	2023-07-02 12:01:48,535	253867	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-4]	Listando Turnos - GET ALL
+INFO	2023-07-02 12:01:48,540	253872	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-2]	Actualizando Turno - PUT
+INFO	2023-07-02 12:01:48,546	253878	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-5]	Listando Turnos - GET ALL
+INFO	2023-07-02 12:01:57,607	262939	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-6]	Buscando Turno - GET + ID
+INFO	2023-07-02 12:01:57,609	262941	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-6]	Eliminando Turno - DELETE
+INFO	2023-07-02 12:01:57,610	262942	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-6]	Turno eliminado con éxito
+INFO	2023-07-02 12:01:57,614	262946	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-7]	Listando Turnos - GET ALL
+INFO	2023-07-02 12:02:00,207	265539	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-10]	Buscando Turno - GET + ID
+ERROR	2023-07-02 12:02:00,208	265540	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-10]	El turno 34 no está registrado
+INFO	2023-07-02 12:02:01,513	266845	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-8]	Buscando Turno - GET + ID
+INFO	2023-07-02 12:02:01,515	266847	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-8]	Turno encontrado
+INFO	2023-07-02 12:02:03,763	269095	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-1]	Buscando Turno - GET + ID
+ERROR	2023-07-02 12:02:03,764	269096	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-1]	El turno 3 no está registrado
+INFO	2023-07-02 12:02:05,300	270632	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-9]	Buscando Turno - GET + ID
+INFO	2023-07-02 12:02:05,302	270634	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-9]	Turno encontrado
+INFO	2023-07-02 12:02:06,748	272080	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-3]	Buscando Turno - GET + ID
+INFO	2023-07-02 12:02:06,750	272082	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-3]	Turno encontrado
+INFO	2023-07-02 12:19:43,902	1329234	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-9]	Listando Pacientes - GET ALL
+INFO	2023-07-02 12:19:48,661	1333993	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-3]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:19:48,662	1333994	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-3]	Paciente encontrado
+INFO	2023-07-02 12:19:58,583	1343915	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-4]	Listando Pacientes - GET ALL
+INFO	2023-07-02 12:20:39,457	1384789	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-5]	Listando Pacientes - GET ALL
+INFO	2023-07-02 12:20:39,463	1384795	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-2]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:20:39,464	1384796	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-2]	Paciente modificado con éxito
+INFO	2023-07-02 12:20:39,464	1384796	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-2]	Actualizando Paciente - PUT
+INFO	2023-07-02 12:20:39,468	1384800	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-6]	Listando Pacientes - GET ALL
+INFO	2023-07-02 12:21:14,224	1419556	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-3]	Listando Pacientes - GET ALL
+INFO	2023-07-02 12:21:14,230	1419562	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-9]	Buscando Paciente - GET + ID
+INFO	2023-07-02 12:21:14,231	1419563	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-9]	Paciente modificado con éxito
+INFO	2023-07-02 12:21:14,231	1419563	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-9]	Actualizando Paciente - PUT
+INFO	2023-07-02 12:21:14,236	1419568	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-1]	Listando Pacientes - GET ALL
+INFO	2023-07-02 13:08:05,205	0	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-8]	Listando Pacientes - GET ALL
+INFO	2023-07-02 13:08:12,820	7615	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-4]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 13:08:23,965	18760	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-4]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 13:09:23,552	78347	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-7]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 15:40:01,630	9116425	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-8]	Listando Pacientes - GET ALL
+INFO	2023-07-02 15:40:29,059	9143854	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-9]	Paciente guardado con éxito
+INFO	2023-07-02 15:40:29,059	9143854	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-9]	Guardado Paciente - POST
+INFO	2023-07-02 15:40:29,121	9143916	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-1]	Listando Pacientes - GET ALL
+INFO	2023-07-02 15:40:41,135	9155930	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-8]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 15:40:59,124	9173919	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-1]	Odontólogo guardado con éxito
+INFO	2023-07-02 15:40:59,124	9173919	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-1]	Guardado Odontólogo - POST
+INFO	2023-07-02 15:40:59,148	9173943	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-4]	Listando Odontólogos - GET ALL
+INFO	2023-07-02 15:41:42,660	9217455	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-1]	Buscando Paciente - GET + ID
+INFO	2023-07-02 15:41:42,675	9217470	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-1]	Paciente encontrado
+INFO	2023-07-02 15:41:42,682	9217477	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-4]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 15:41:42,684	9217479	com.dh.clinica.controller.OdontologoController	[http-nio-8080-exec-4]	Odontólogo encontrado
+INFO	2023-07-02 15:41:42,694	9217489	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-10]	Buscando Paciente - GET + ID
+INFO	2023-07-02 15:41:42,696	9217491	com.dh.clinica.service.OdontologoService	[http-nio-8080-exec-10]	Buscando Odontólogo - GET + ID
+INFO	2023-07-02 15:41:42,698	9217493	com.dh.clinica.controller.TurnoController	[http-nio-8080-exec-10]	Turno agregado con éxito
+INFO	2023-07-02 15:41:42,698	9217493	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-10]	Guardado Turno - POST
+INFO	2023-07-02 15:41:42,713	9217508	com.dh.clinica.service.TurnoService	[http-nio-8080-exec-5]	Listando Turnos - GET ALL
+INFO	2023-07-03 16:38:46,013	0	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-4]	Listando Pacientes - GET ALL
+INFO	2023-07-03 16:38:59,673	13660	com.dh.clinica.controller.PacienteController	[http-nio-8080-exec-3]	Paciente guardado con éxito
+INFO	2023-07-03 16:38:59,674	13661	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-3]	Guardado Paciente - POST
+INFO	2023-07-03 16:38:59,736	13723	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-5]	Listando Pacientes - GET ALL
+INFO	2023-07-03 16:40:09,775	83762	com.dh.clinica.service.PacienteService	[http-nio-8080-exec-8]	Listando Pacientes - GET ALL

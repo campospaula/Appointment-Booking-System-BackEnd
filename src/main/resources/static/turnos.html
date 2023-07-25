@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turnos</title>
+  <link rel="icon" type="image/x-icon" href="./assets/logo.ico">
+  <meta name="description" content="Proyecto integrador | BACKEND | VÍCTOR GUTIÉRREZ | PAULA CAMPOS" />
+  <!-- ---------------- estilos AOS ---------------- -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- ---------------- estilos SweetAlert ---------------- -->
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css" rel="stylesheet">
+  <!-- ----------------------------- estilos CSS ----------------------------- -->
+  <link rel="stylesheet" href="./css/tasksStyles.css">
+  <!-- ------------------- librería de íconos Fontawesome -------------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- lógica de la página -->
+  <script src="./scripts/utils.js"></script>
+  <script src="./scripts/turnos.js" defer></script>
+</head>
+<body>
+  <!-- cabecera con barra de navegación -->
+  <header class="container" data-aos="fade-down" data-aos-duration="500">
+    <nav>
+      <ul class="nav-ul">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="pacientes.html">PACIENTES</a></li>
+        <li><a href="odontologos.html">ODONTOLOGOS</a></li>
+      </ul>
+      <div class="user-info">
+        <p>username</p>
+        <div class="user-image"></div>
+        <button id="closeApp" data-aos="fade-left" data-aos-duration="1500"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</button>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <!-- cargar de turnos -->
+    <form id="turno" class="nueva-tarea" data-aos="zoom-out-down" data-aos-duration="1000">
+      <div>
+        <input id="turno-paciente-id" type="number" placeholder="paciente id" required>
+        <input id="turno-odontologo-id" type="number" placeholder="odontologo id" required>
+        <input id="turno-date" type="datetime-local" required>
+      </div>
+      <button type="submit">Agregar turno</button>
+    </form>
+    <form id="mod-turno" class="nueva-tarea" data-aos="zoom-out-down" data-aos-duration="1000">
+      <div>
+        <input id="t-id" type="number" placeholder="id" min="1" required>
+        <input id="t-paciente-id" type="number" placeholder="paciente id" required>
+        <input id="t-odontologo-id" type="number" placeholder="odontologo id" required>
+        <input id="t-date" type="datetime-local" required>
+      </div>
+      <button type="submit">Modificar turno</button>
+    </form>
+    <!-- contenedor vacío para los turnos -->
+    <h2>Turnos</h2>
+    <ul id="lista-turnos" class="tareas-pendientes lista-pacientes"></ul>
+    <!-- buscar un turno -->
+    <form id="un-turno" class="un-turno" data-aos="zoom-out-down" data-aos-duration="1000">
+      <input id="turno-id" type="number" placeholder="id" min="1" required>
+      <button type="submit">Buscar turno</button>
+      <button type="button" id="eliminar-btn">Eliminar turno</button>
+    </form>
+    <h2>turno</h2>
+    <ul id="un-turno-list" class="tareas-pendientes"></ul>
+  </main>
+  <footer class="footer-index">
+    <p>| VÍCTOR GUTIÉRREZ - PAULA CAMPOS |</p>
+  </footer>
+  <!-- SCRIPT AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <!-- SCRIPT SweetAlert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+
+</body>
+
+</html>
